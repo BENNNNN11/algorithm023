@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73e67772-c4ca-40ff-8217-726951eaff83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DequeV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="f9f386fe-42fa-4c15-8e79-09bd14f86d5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note_01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note_01_2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DequeV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DequeV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构和算法-思维导图.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectId" id="1mXw83qtw2ShYr7Uh1hYe8eqe2z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,45 +39,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RunManager">
-    <configuration name="DequeV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DequeV2" />
-      <module name="Week_01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DequeV2" />
-      </list>
-    </recent_temporary>
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="73e67772-c4ca-40ff-8217-726951eaff83" name="Default Changelist" comment="" />
-      <created>1609648428717</created>
+      <changelist id="f9f386fe-42fa-4c15-8e79-09bd14f86d5c" name="Default Changelist" comment="" />
+      <created>1609653082782</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609648428717</updated>
-      <workItem from="1609648429966" duration="1770000" />
+      <updated>1609653082782</updated>
+      <workItem from="1609653086643" duration="127000" />
+      <workItem from="1609653294272" duration="91000" />
+      <workItem from="1609653598403" duration="185000" />
+      <workItem from="1609653795118" duration="493000" />
     </task>
     <servers />
   </component>
@@ -86,5 +71,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
