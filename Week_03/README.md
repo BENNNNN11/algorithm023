@@ -46,35 +46,35 @@ Week03学习笔记
 ```
     
 3. **递归的代码模版**：
-    
-        ```python
-        def recursion():
-        	# 1. recursion terminator 终止条件
-          if level > MAX_LEVEL:
-            process_result 
-            return 
-          # 2. process logic in current level 处理当前层
-          process(level, data...)
-          # 3. drill down 下探到下一层
-          self.recursion(level+1, p1, ...) 
-          # 4. reverse the curent level status if needed 清理当前层
-        ```
-        
-        ```java
+
+    ```python
+    def recursion():
+    	# 1. recursion terminator 终止条件
+      if level > MAX_LEVEL:
+        process_result 
+        return 
+      # 2. process logic in current level 处理当前层
+      process(level, data...)
+      # 3. drill down 下探到下一层
+      self.recursion(level+1, p1, ...) 
+      # 4. reverse the curent level status if needed 清理当前层
+    ```
+
+    ```java
     public void recur(int level, int param) {
       // terminator 
-          if (level > MAX_VALUE) {
-         		// process result 
-            return; 
-          }
-          
-          // process the logic of current level 
-          process(level, param);
-          
-          // drill down
-          recur(level: level + 1, newParam);
-          // resotre the current status  
-        }
-        ```
-        
-        
+      if (level > MAX_VALUE) {
+     		// process result 
+        return; 
+      }
+      
+      // process the logic of current level 
+      process(level, param);
+      
+      // drill down
+      recur(level: level + 1, newParam);
+      // resotre the current status  
+    }
+    ```
+
+    
