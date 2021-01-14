@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27af9dda-914b-4367-bdb1-1baecdf86115" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Week_03/实战题目/[104]二叉树的最大深度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/实战题目/[111]二叉树的最小深度.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week_02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/README.md" afterDir="false" />
@@ -75,7 +76,7 @@
       <workItem from="1610332161313" duration="71000" />
       <workItem from="1610332520871" duration="9000" />
       <workItem from="1610430640023" duration="398000" />
-      <workItem from="1610524455094" duration="17404000" />
+      <workItem from="1610524455094" duration="18030000" />
     </task>
     <servers />
   </component>
