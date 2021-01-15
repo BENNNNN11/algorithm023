@@ -104,16 +104,16 @@ Week03学习笔记
     4. **回溯**： 
 
         ```python
-        # 回溯算法，复杂度较高，因为回溯算法就是暴力穷举，遍历整颗决策树是不可避免的
+        # 回溯算法复杂度较高，因为回溯算法就是暴力穷举，遍历整颗树
         res = []
-        def backtrack(路径, 选择列表):
-            if 满足结束条件:
-                res.append(路径)
+        def backtrack(path, choice_list):
+            if terminator:
+                res.append(path)
                 return
-            for 选择 in 选择列表:    # 核心代码段
-                做出选择
-                递归执行backtrack
-                撤销选择
+            for choice in choice_list:    # 核心代码段
+                # 做出选择
+                # 递归执行backtrack
+                # 撤销选择
         ```
 
         
