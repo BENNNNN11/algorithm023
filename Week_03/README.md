@@ -83,7 +83,7 @@ Week03学习笔记
 
     3. **分治 divide & conquer**：怎么拆分成子问题 && 怎么合并子结果
 
-        ```python 
+        ```python
         def divide_conquer(problem, param1, param2):
           # recursion terminator 
           if problem is None: 
