@@ -41,11 +41,11 @@ Week03学习笔记
     ```python
     def factorial(n):  # n!, 相当调用栈
       if n <= 1:
-    		return 1 
+        return 1 
       return n * factorial(n-1)
     ```
 
-3. **递归的代码模版**：
+3. **泛型递归的代码模版**：
 
     ```python
     def recursion():
@@ -67,14 +67,39 @@ Week03学习笔记
      		// process result 
         return; 
       }
-      
       // process the logic of current level 
       process(level, param);
-      
       // drill down
       recur(level: level + 1, newParam);
       // resotre the current status  
     }
     ```
 
-    
+4. **分治和回溯**
+
+    1. 本质就是找**重复性**
+
+    2. 拆分成**子问题**
+
+    3. **分治 divide & conquer**：怎么拆分成子问题 && 怎么合并子结果
+
+        ```python 
+        def divide_conquer(problem, param1, param2):
+          # recursion terminator 
+          if problem is None: 
+            print_result 
+            return 
+          # prepare data and divide problem
+          data = prepare_data(problem)
+          subproblems = split_problem(problem, data)
+          # conquer problem 
+          subresult1 = self.divide_conquer(subproblems[0], p1, ...)
+          subresult2 = self.divide_conquer(subproblems[1], p1, ...)
+          subresult3 = self.divide_conquer(subproblems[2], p1, ...)
+        	# ... 
+          # process and generate the final result 
+          result = process_result(subresult1, subresult2,subresult3)
+        ```
+
+    4. **回溯**： 
+
