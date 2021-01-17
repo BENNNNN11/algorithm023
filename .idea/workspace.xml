@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27af9dda-914b-4367-bdb1-1baecdf86115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_03/homework/[236]二叉树的最近公共祖先.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_03/homework/[77]组合.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/homework/[46]全排列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/每日一题/[1]两数之和.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_03/课后作业/[236]二叉树的最近公共祖先.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_03/课后作业/[77]组合.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +29,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_03/课后作业" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_03/每日一题" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -40,9 +37,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week_03/每日一题" />
+      <recent name="$PROJECT_DIR$/Week_03/homework" />
       <recent name="$PROJECT_DIR$/Week_03/课后作业" />
       <recent name="$PROJECT_DIR$/Week_03/实战题目" />
-      <recent name="$PROJECT_DIR$/Week_03/每日一题" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,7 +70,8 @@
       <workItem from="1610524455094" duration="27255000" />
       <workItem from="1610692100966" duration="1048000" />
       <workItem from="1610693773807" duration="1723000" />
-      <workItem from="1610698413601" duration="2280000" />
+      <workItem from="1610698413601" duration="3290000" />
+      <workItem from="1610703546139" duration="814000" />
     </task>
     <servers />
   </component>
