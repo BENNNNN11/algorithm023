@@ -34,7 +34,7 @@ def dfs(node, visited):
 
 - java
 
-``` java
+```java
 public List<List<Integer>> levelOrder(TreeNode root) {
   List<List<Integer>> result = new ArrayList<>();
   if (root == null) {
