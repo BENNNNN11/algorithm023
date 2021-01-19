@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27af9dda-914b-4367-bdb1-1baecdf86115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_03/homework/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/每日一题/[15]三数之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_03/每日一题/[面试题 17.09]第 k 个数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,16 +30,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_03/homework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_03/每日一题" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Week_03/homework" />
       <recent name="$PROJECT_DIR$/Week_03/每日一题" />
+      <recent name="$PROJECT_DIR$/Week_03/homework" />
       <recent name="$PROJECT_DIR$/Week_03/课后作业" />
       <recent name="$PROJECT_DIR$/Week_03/实战题目" />
     </key>
@@ -70,7 +74,8 @@
       <workItem from="1610693773807" duration="1723000" />
       <workItem from="1610698413601" duration="3290000" />
       <workItem from="1610703546139" duration="814000" />
-      <workItem from="1610854475438" duration="4227000" />
+      <workItem from="1610854475438" duration="8331000" />
+      <workItem from="1610881258718" duration="38000" />
     </task>
     <servers />
   </component>
