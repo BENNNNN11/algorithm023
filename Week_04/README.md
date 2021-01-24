@@ -235,3 +235,74 @@ public List<List<Integer>> levelOrder(TreeNode root){
 
   
 
+# 二分查找
+
+- 二分查找的前提：
+
+  - 单调性
+  - 有上下界
+  - 能够索引访问
+
+- 模版
+
+  ```python
+  # python
+  left, right = 0, len(array) - 1
+  while left <= right: 
+    mid = (left + right) / 2
+    if array[mid] == target:
+      break # or return result 
+    elif array[mid] < target: 
+      left = mid + 1
+    else: 
+      right = mid - 1 
+  ```
+
+  ```java
+  // java 
+  public void binarySearch(int[] array, int target) {
+    	int left = 0, right = array.length - 1, mid;
+    	while (left <= right) {
+        mid = left + (right - left) / 2;
+        if (array[mid] == num) {
+          return mid;
+        } else if (array[mid] > target) {
+          right = mid - 1;
+        } else {
+          left = mid + 1;
+        }
+      }
+    	return -1;
+  }
+  ```
+
+  ```c++
+  // C++
+  int binarySearch(const vector<int>& nums, int target) {
+    int left = 0, right = (int)nums.size()-1; 
+    while (left <= right) {
+      int mid = left + (right - left ) / 2; 
+      if (nums[mid] == target) return mid;
+      else if (nums[mid] <= target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+  
+  ```
+
+- 使用二分查找， 寻找一个半有序数组[4,5,6,7,0,1,2,3]中无序的地方
+
+```python
+def search(nums):  
+    if not nums: return -1 
+    left, right, ans = 0, len(nums) - 1, -1 
+    while left <= right: 
+        mid = (left + right) // 2 
+        if nums[0] < nums[mid]: 
+          left = mid + 1
+        else:
+          right = mid - 1
+    return right
+```
+

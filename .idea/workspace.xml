@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27af9dda-914b-4367-bdb1-1baecdf86115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_04/[126]单词接龙 II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/[455]分发饼干.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/[122]买卖股票的最佳时机 II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/[33]搜索旋转排序数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/[45]跳跃游戏 II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/[55]跳跃游戏.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/[69]x 的平方根.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/[74]搜索二维矩阵.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/[860]柠檬水找零.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-python/45.跳跃游戏-ii.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[455]分发饼干.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-python/[55]跳跃游戏.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-python/[860]柠檬水找零.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-python" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-python" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-python/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-python/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/leetcode-python" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mDPnbnHz5Zk9kTEgddisEAyJ2t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -34,17 +43,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/leetcode-python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_04" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/leetcode-python" />
       <recent name="$PROJECT_DIR$/Week_04" />
+      <recent name="$PROJECT_DIR$/leetcode-python" />
       <recent name="$PROJECT_DIR$/Week_04/实战题目" />
       <recent name="$PROJECT_DIR$/Week_03/每日一题" />
       <recent name="$PROJECT_DIR$/Week_03/homework" />
@@ -89,7 +98,9 @@
       <workItem from="1611290755978" duration="3262000" />
       <workItem from="1611298507386" duration="6676000" />
       <workItem from="1611383843362" duration="1473000" />
-      <workItem from="1611388010548" duration="35000" />
+      <workItem from="1611388010548" duration="6019000" />
+      <workItem from="1611398624908" duration="2745000" />
+      <workItem from="1611486401364" duration="2600000" />
     </task>
     <servers />
   </component>
