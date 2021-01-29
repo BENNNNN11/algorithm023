@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27af9dda-914b-4367-bdb1-1baecdf86115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_04/[122]买卖股票的最佳时机 II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/[33]搜索旋转排序数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/[45]跳跃游戏 II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/[55]跳跃游戏.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/[69]x 的平方根.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/[74]搜索二维矩阵.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/[860]柠檬水找零.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/[1143]最长公共子序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/[53]最大子序和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/[62]不同路径.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/[74]搜索二维矩阵.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/[874]模拟行走机器人.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/45.跳跃游戏-ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-python/[1143]最长公共子序列.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[455]分发饼干.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[55]跳跃游戏.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-python/[62]不同路径.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-python/[74]搜索二维矩阵.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[860]柠檬水找零.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-python/[874]模拟行走机器人.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_05/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-python" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-python" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-python/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-python/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-python/[1]两数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-python/[1]两数之和.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_05" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -52,12 +55,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Week_04" />
+      <recent name="$PROJECT_DIR$/Week_05" />
       <recent name="$PROJECT_DIR$/leetcode-python" />
+      <recent name="$PROJECT_DIR$/Week_04" />
       <recent name="$PROJECT_DIR$/Week_04/实战题目" />
       <recent name="$PROJECT_DIR$/Week_03/每日一题" />
-      <recent name="$PROJECT_DIR$/Week_03/homework" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,6 +117,9 @@
       <workItem from="1611388010548" duration="6019000" />
       <workItem from="1611398624908" duration="2745000" />
       <workItem from="1611486401364" duration="2600000" />
+      <workItem from="1611661579306" duration="6000" />
+      <workItem from="1611742042039" duration="6934000" />
+      <workItem from="1611889990181" duration="9246000" />
     </task>
     <servers />
   </component>
@@ -121,6 +140,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file:///var/folders/2z/9jkd47g94ld0vqj1ltck5_m80000gn/T/leetcode/editor/cn/[88]合并两个有序数组.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
