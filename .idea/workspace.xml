@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27af9dda-914b-4367-bdb1-1baecdf86115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_05/[1143]最长公共子序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/[53]最大子序和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/[62]不同路径.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/[74]搜索二维矩阵.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/[874]模拟行走机器人.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/[152]乘积最大子数组.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/45.跳跃游戏-ii.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[1143]最长公共子序列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-python/[120]三角形最小路径和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-python/[152]乘积最大子数组.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[455]分发饼干.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-python/[53]最大子序和.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[55]跳跃游戏.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[62]不同路径.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[74]搜索二维矩阵.py" afterDir="false" />
@@ -29,7 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/leetcode-python" />
   </component>
   <component name="ProjectId" id="1mDPnbnHz5Zk9kTEgddisEAyJ2t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -63,13 +62,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,7 +120,8 @@
       <workItem from="1611486401364" duration="2600000" />
       <workItem from="1611661579306" duration="6000" />
       <workItem from="1611742042039" duration="6934000" />
-      <workItem from="1611889990181" duration="9246000" />
+      <workItem from="1611889990181" duration="13148000" />
+      <workItem from="1612098574223" duration="3329000" />
     </task>
     <servers />
   </component>
