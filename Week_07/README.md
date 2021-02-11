@@ -69,3 +69,75 @@
   ```
 
   
+
+# 高级搜索
+
+- 朴素搜索：
+
+  - 优化方法： 避免重复，剪枝
+
+  - DFS模版：
+
+    ```python
+    # recursion 
+    visited = set()
+    def dfs(node, visited):
+      # terminator 
+    	if node in visited:
+    		return 
+      visited.add(node)
+      
+      # process current node here 
+      
+      for next_node in node.children():
+        if not next_node in visited:
+          dfs(next_node, visited)
+    ```
+
+    ```python
+    # stack version
+    def dfs(self, tree):
+      if tree.node is None:
+        return []
+      visited, stack = [tree.root]
+      while stack:
+    		node = stack.pop()
+        visited.add(node)
+      	process(node)
+        nodes = generate_related_nodes(node)
+        stack.push(nodes)
+    ```
+
+    
+
+  - BFS模版：
+
+    ```python
+    def bfs(graph, start, end):
+      queue = []
+      queue.append([start])
+      visited.add(start) 
+      while queue:
+        node = queue.pop(0)
+        visited.add(node)
+        process(node)
+        nodes = generate_related_nodes(node)
+        queue.push(nodes)
+    ```
+
+- 剪枝：
+
+  - 已经计算过的
+  - 次优解
+  - [AlphaZero Explained](https://nikcheerla.github.io/deeplearningschool/2018/01/01/AlphaZero-Explained/)
+  - [棋类复杂度](https://en.wikipedia.org/wiki/Game_complexity)
+
+- 回溯：
+
+  - 采用试错的思想
+  - 本质是递归和分治
+
+- 双向bfs：
+
+- 启发式搜索A*：优先队列
+
