@@ -139,5 +139,85 @@
 
 - 双向bfs：
 
+  ```java
+  public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+    // 用set 优化查询时间O(1)
+    Set<String> wordSet = new HashSet<String>(wordList);
+    // 边界条件：wordSet长度为0， 或者endWord不在wordSet中
+    if (wordSet.size() == 0 || !wordSet.contains(endWord)) {
+      return 0;
+    }
+    // 用beginset记录从beginword扩散出去的单词
+    Set<String> beginSet = new HashSet<String>();
+    beginSet.add(beginWord);
+    
+    // 用endset记录从endword扩散出去的单词
+    Set<String> endSet = new HashSet<String>();
+    endSet.add(endWord);
+  
+    // 用visited 记录走过的单词， 因为访问过的不能重复访问
+    HashSet<String> visited = new HashSet<String>();
+  
+  
+    // BFS starts here
+    int len = 1;
+    while(!beginSet.isEmpty() && !endSet.isEmpty()) {
+      // 由于扩散的时候每次只散一个set，所以优先选择小的set
+      // 如果beginSet比endSet大的话，互换一下
+      if (beginSet.size() > endSet.size()) {
+        Set<String> set = beginSet;
+        beginSet = endSet;
+        endSet = set;
+      }
+      // 扩散beginSet
+      Set<String> path = new HashSet<String>();
+      for (String word: beginSet) {
+        char[] charArray = word.toCharArray();
+        for (int i = 0; i < charArray.length; i++) {
+          // 遍历set中的单词， 变换字符位
+          for (char c = 'a'; c <= 'z'; c++) {
+            char old = charArray[i];
+            charArray[i] = c;
+            String target = String.valueOf(charArray);
+            if (endSet.contains(target)) {
+              return len + 1;
+            }
+            // 如果此单词没走过，并且是wordlist中的单词，就添加到路径和visit中
+            if (!visited.contains(target) && wordSet.contains(target)) {
+              path.add(target);
+              visited.add(target);
+            }
+            // 恢复更改
+            charArray[i] = old;
+          }
+        }
+      }
+      beginSet = path;
+      len++;
+    }
+    return 0;
+  }
+  ```
+
+  
+
 - 启发式搜索A*：优先队列
 
+  - A* search 
+
+    ```python
+    def AstarSearch(graph, start, end):
+    	pq = collections.prioity_queue() 
+      pq.append([start])
+    	visited.append(start)
+      while pq: 
+        node = pq.pop()
+        visited.apppend(node) 
+       	
+        process(node) 
+        nodes = generate_related_nodes(node)
+        unvisited = [node for node in nodes if node not in visited] 
+        pq.push([unvisited])
+    ```
+
+    
