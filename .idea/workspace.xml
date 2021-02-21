@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27af9dda-914b-4367-bdb1-1baecdf86115" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_07/[127]单词接龙.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/[22]括号生成.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/[36]有效的数独.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/[37]解数独.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/[51]N 皇后.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_07/[1091]二进制矩阵中的最短路径.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/45.跳跃游戏-ii.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[1143]最长公共子序列.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode-python/[120]三角形最小路径和.py" afterDir="false" />
@@ -118,7 +114,7 @@
       <workItem from="1612858758440" duration="10724000" />
       <workItem from="1612942749858" duration="9655000" />
       <workItem from="1613113556645" duration="16123000" />
-      <workItem from="1613306696962" duration="4787000" />
+      <workItem from="1613306696962" duration="10311000" />
     </task>
     <servers />
   </component>
